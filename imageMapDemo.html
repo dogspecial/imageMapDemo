@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="iFrame message passing test">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>imageMapDemo</title>
-</head>
-<body>
-    
-        <img name="usemap" src="animal.png" usemap="#m_usaMap" border="0" width="100%">
-    
-    <map name="m_usaMap">
-        <area   shape="rect"
-                coords="48,12,480,588"
-                href="https://pixabay.com/images/id-2063672/"
-                title="horse">
-    </map>
-    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="imageMapResizer.min.js"></script>
-    <script>
-        imageMapResize();
-	</script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="iFrame message passing test">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>imageMapDemo</title>
+    </head>
+    <body>
 
-</body>
+        <img
+            name="usemap"
+            src="img/animal.png"
+            usemap="#m_usaMap"
+            border="0"
+            width="100%">
+
+        <map name="m_usaMap">
+            <area shape="rect" coords="40,12,480,588" href="img/horse.jpg" title="horse">
+            <area shape="rect" coords="500,12,920,588" href="img/cow.jpg" title="cow">
+        </map>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="imageMapResizer.min.js"></script>
+        <script>
+            imageMapResize();
+        </script>
+
+    </body>
 </html>
