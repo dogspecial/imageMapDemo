@@ -5,6 +5,6 @@
 
 1. Click or Touch Animal Icons.
 <img src="/img/animal.png" width="40%"></img>
-<br><br>
+<br/><br/>
 2. Show Real Animal Picture.
 <img src="/img/horse.jpg" width="40%"></img>
