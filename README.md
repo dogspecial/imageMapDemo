@@ -1,7 +1,7 @@
 # imageMapDemo
 ## How to Use imageMapDemo
 
-> When Click or touch animals Icon, Then Show real animals picture
+> When Click or touch animals Icon, Then Show real animals picture   
 
 1. Click or Touch Animal Icons.
 <img src="/img/animal.png" width="40%"></img>
